@@ -97,7 +97,11 @@ console.log("TASK 6: Convert Minutes to Hours");
 // • Inside, calculate and return the number of hours (minutes / 60).
 // • Call the function with 120 and log the result (expect 2).
 
+function convertToHours(minutes){
+    return minutes / 60
+}
 
+console.log(convertToHours(120));
 // ============================================================
 // TASK 7: Display a Welcome Message
 // ============================================================
@@ -108,7 +112,11 @@ console.log("TASK 7: Display a Welcome Message");
 // • Inside, log a message like "🎬 Welcome to the Movie Picker!".
 // • Call the function (no inputs) and check the console output.
 
+function welcomeMessage(){
+    console.log("Welcome to the movie picker")
+}
 
+welcomeMessage()
 // ============================================================
 // TASK 8: Add Three Numbers
 // ============================================================
@@ -119,11 +127,15 @@ console.log("TASK 8: Add Three Numbers");
 // • Inside, return the sum of the three numbers.
 // • Call the function with 5, 10, and 15, and log the result (expect 30).
 
+function addThree(a, b, c) {
+    return a + b + c;
+}
 
+console.log(addThree(5, 10, 15));
 // ============================================================
 // TASK 9: Display Today’s Message
 // ============================================================
-console.log("TASK 9: Display Today’s Message");
+console.log("TASK 9: Display Today’s Message");`2`
 // ------------------------------------------------------------
 // • This function should NOT have parameters.
 // • Define a function named `todaysMessage`.
@@ -132,7 +144,12 @@ console.log("TASK 9: Display Today’s Message");
 //    "Let's write some clean JavaScript today!"
 // • Call the function once to test it.
 
+function todaysMessage() {
+    console.log("Good morning, SE11!");
+    console.log("Let's write some clean JavaScript today!");
+}
 
+todaysMessage();
 // ============================================================
 // TASK 10: Multiply Two Numbers
 // ============================================================
@@ -143,8 +160,11 @@ console.log("TASK 10: Multiply Two Numbers");
 // • Inside, return the result of multiplying num1 and num2.
 // • Call the function with 7 and 9, and log the result.
 
+function multiply(num1, num2) {
+   return num1 * num2;
+}
 
-
+console.log(multiply(7, 9));
 // ============================================================
 // ==== Final Commit Instructions ====
 // At this point, commit your work with an appropriate commit message.
